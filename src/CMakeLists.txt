@@ -12,7 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+
 # do not add third_party installations
+message("HITTING MAIN SRC BUILD")
+
 add_subdirectory(third_party EXCLUDE_FROM_ALL)
 add_subdirectory(utilities)
 add_subdirectory(collider)

@@ -14,6 +14,8 @@
 
 project(python)
 
+message("Building python bindings")
+
 add_subdirectory(third_party)
 nanobind_add_module(
   manifold3d

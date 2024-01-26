@@ -120,3 +120,8 @@ __pycache__
 
 # PyCharm
 .idea
+
+dist
+.pyodide*
+
+llvm.sh

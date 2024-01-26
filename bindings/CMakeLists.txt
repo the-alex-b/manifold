@@ -16,7 +16,8 @@ if(NOT EMSCRIPTEN AND MANIFOLD_CBIND)
     add_subdirectory(c)
 endif()
 
-if(NOT EMSCRIPTEN AND MANIFOLD_PYBIND)
+if(MANIFOLD_PYBIND)
+    message("Hit manifold block in bindings folder")
     add_subdirectory(python)
 endif()
 
